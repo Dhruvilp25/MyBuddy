@@ -9,7 +9,7 @@ client = OpenAI(
         api_key="API KEY GOES HERE"
     )
 
-# Initializes the recognizer
+#Initializes the recognizer
 r = sr.Recognizer()
 
 def record_test():
